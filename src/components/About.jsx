@@ -39,7 +39,7 @@ const About = () => {
 
       <motion.p
         variants={fadeIn("","",0.1,1)}
-        className='mt-4 text-secondary text-[17px] max-w-5xl leading-[30px]'
+        className='mt-3 text-secondary text-[17px] max-w-7xl leading-[30px]'
       >
         I'm a passionate frontend developer with expertise in HTML, CSS, JavaScript, and React, and hands-on experience with frameworks like Bootstrap, jQuery and etc. I specialize in creating responsive, intuitive, and visually appealing web interfaces that enhance user experience.
 

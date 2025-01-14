@@ -8,6 +8,11 @@ import {
     html,
     css,
     reactjs,
+    bootstrap,
+    jquery,
+    php,
+    mysql,
+    firebase,
     redux,
     tailwind,
     nodejs,
@@ -18,11 +23,14 @@ import {
     meta,
     starbucks,
     tesla,
+    iot,
     shopify,
     carrent,
     jobit,
     tripguide,
     threejs,
+    logicmaster,
+    internship,
   } from "../assets";
   
   export const navLinks = [
@@ -85,28 +93,36 @@ import {
       icon: javascript,
     },
     {
-      name: "TypeScript",
-      icon: typescript,
+      name: "Bootstrap",
+      icon: bootstrap,
+    },
+    {
+      name: "Jquery",
+      icon: jquery,
+    },
+    {
+      name: "Tailwind",
+      icon: tailwind,
     },
     {
       name: "React JS",
       icon: reactjs,
     },
     {
-      name: "Redux Toolkit",
-      icon: redux,
-    },
-    {
-      name: "Tailwind CSS",
-      icon: tailwind,
+      name: "Php",
+      icon: php,
     },
     {
       name: "Node JS",
       icon: nodejs,
     },
     {
-      name: "MongoDB",
-      icon: mongodb,
+      name: "Mysql",
+      icon: mysql,
+    },
+    {
+      name: "firebase",
+      icon: firebase,
     },
     {
       name: "Three JS",
@@ -116,67 +132,58 @@ import {
       name: "git",
       icon: git,
     },
-    {
-      name: "figma",
-      icon: figma,
-    },
-    {
-      name: "docker",
-      icon: docker,
-    },
+    
   ];
   
   const experiences = [
     {
-      title: "React.js Developer",
-      company_name: "Starbucks",
-      icon: starbucks,
+      title: "Frontend Developer",
+      company_name: "Freelance",
+      icon: reactjs,
       iconBg: "#383E56",
-      date: "March 2020 - April 2021",
+      date: "March 2023 - Present",
       points: [
         "Developing and maintaining web applications using React.js and other related technologies.",
         "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
         "Implementing responsive design and ensuring cross-browser compatibility.",
-        "Participating in code reviews and providing constructive feedback to other developers.",
       ],
     },
     {
-      title: "React Native Developer",
-      company_name: "Tesla",
-      icon: tesla,
-      iconBg: "#E6DEDD",
-      date: "Jan 2021 - Feb 2022",
+      title: "IoT Developer",
+      company_name: "Freelance",
+      icon: iot,
+      iconBg: "#7cd9cb",
+      date: "Jan 2021 - Present",
       points: [
-        "Developing and maintaining web applications using React.js and other related technologies.",
-        "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-        "Implementing responsive design and ensuring cross-browser compatibility.",
-        "Participating in code reviews and providing constructive feedback to other developers.",
+        "Designed and implemented IoT-based solutions", 
+        "Integrating microcontrollers such as Arduino, ESP32 and sensors for real-time monitoring and control",
+        "Developed responsive and interactive web applications using HTML, CSS, JavaScript, and PHP, with MySQL database integration.",
       ],
     },
     {
-      title: "Web Developer",
-      company_name: "Shopify",
-      icon: shopify,
-      iconBg: "#383E56",
-      date: "Jan 2022 - Jan 2023",
-      points: [
-        "Developing and maintaining web applications using React.js and other related technologies.",
-        "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-        "Implementing responsive design and ensuring cross-browser compatibility.",
-        "Participating in code reviews and providing constructive feedback to other developers.",
-      ],
-    },
-    {
-      title: "Full stack Developer",
-      company_name: "Meta",
-      icon: meta,
-      iconBg: "#E6DEDD",
+      title: "Electrical Engineer",
+      company_name: "Logic Master",
+      icon: logicmaster,
+      iconBg: "#E6DEDD", 
       date: "Jan 2023 - Present",
       points: [
-        "Developing and maintaining web applications using React.js and other related technologies.",
-        "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-        "Implementing responsive design and ensuring cross-browser compatibility.",
-        "Participating in code reviews and providing constructive feedback to other developers.",
+        "Developed Panel Design & Installation for industrial applications ensuring high quality, efficient and safe system", 
+        "Experienced in PLC and HMI Programming", 
+        "Designed and installed solar energy systems, including panel configurations, inverters, and battery storage solutions",
+        "Assisted in project planning and implementation, ensuring compliance with safety and industry standards."
+      ],
+    },
+    {
+      title: "Internships",
+      company_name: "",
+      icon: internship,
+      iconBg: "#E6DEDD",
+      date: "2018 - 2021",
+      points: [
+        "Embedded Developer Internship at Everything Electronics Co., Ltd ",
+        "Industrial Automation Engineer Internship at Logic Master Co., Ltd ",
+        "Electronics Engineer Internship at Logic Master Co., Ltd ",
+        "Solar Energy System Internship at Solar Pro Co.,Ltd",
       ],
     },
   ];

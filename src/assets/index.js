@@ -20,11 +20,19 @@ import redux from "./tech/redux.png";
 import tailwind from "./tech/tailwind.png";
 import typescript from "./tech/typescript.png";
 import threejs from "./tech/threejs.svg";
+import bootstrap from "./tech/bootstrap.png";
+import jquery from "./tech/jquery.png";
+import firebase from "./tech/firebase.png";
+import mysql from "./tech/mysql.png";
+import php from "./tech/php.png";
 
 import meta from "./company/meta.png";
 import shopify from "./company/shopify.png";
 import starbucks from "./company/starbucks.png";
 import tesla from "./company/tesla.png";
+import iot from "./company/iot.png"
+import logicmaster from "./company/logicmaster.png"
+import internship from "./company/internship.png"
 
 import carrent from "./carrent.png";
 import jobit from "./jobit.png";
@@ -56,7 +64,15 @@ export {
   shopify,
   starbucks,
   tesla,
+  iot,
+  logicmaster,
+  internship,
   carrent,
   jobit,
   tripguide,
+  bootstrap,
+  firebase,
+  jquery,
+  mysql,
+  php,
 };
