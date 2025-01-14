@@ -20,10 +20,10 @@ const Navbar = () => {
             window.scrollTo(0,0);
           }}
         >
-          <img src={logo} alt="logo" className='w-9 h-9 object-contain'/>
+          <img src={logo} alt="logo" className='w-9 h-9 object-contain rounded-3xl'/>
           <p className='text-white text-[18px] font-bold cursor-pointer flex'>Khantti &nbsp; <span className='sm:block hidden'>| Web Developer</span></p>
         </Link>
-        <ul className='list-none hidden sm:flex flex-row gap-10'> 
+        <ul className='list-none hidden lg:flex flex-row gap-5'> 
           {navLinks.map((link)=>(
             <li
               key={link.id}
@@ -36,7 +36,7 @@ const Navbar = () => {
             </li>
           ))}
         </ul>
-        <div className='sm:hidden flex flex-1 justify-end items-center'>
+        <div className='lg:hidden flex flex-1 justify-end items-center'>
           <img 
             src={toggle ? close : menu} 
             alt="menu" 

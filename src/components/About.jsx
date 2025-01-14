@@ -39,12 +39,33 @@ const About = () => {
 
       <motion.p
         variants={fadeIn("","",0.1,1)}
-        className='mt-4 text-secondary text-[17px] max-w-3xl leading-[30px]'
+        className='mt-4 text-secondary text-[17px] max-w-5xl leading-[30px]'
       >
-        I'm a skilled software developer with experience in Typescript and JavaScript, and expertise in frameworks like React, Node.js and Three.js. I'm a quick learner and collaborate closely with clients to create efficient, scalable and user-friendly solutions that solve real world problems. Let's work together to bring your ideas to life!
+        I'm a passionate frontend developer with expertise in HTML, CSS, JavaScript, and React, and hands-on experience with frameworks like Bootstrap, jQuery and etc. I specialize in creating responsive, intuitive, and visually appealing web interfaces that enhance user experience.
+
+        With a strong background in IoT systems and web-based SCADA control, I excel at combining frontend technologies with backend services like PHP, Nodejs, MySQL and MongoDb to deliver scalable and impactful solutions. I'm a quick learner and thrive in collaborative environments, working closely with clients to turn ideas into reality through clean, maintainable, and efficient code.
+
+        Let’s build something great together!
       </motion.p>
 
-      <div className='mt-20 flex flex-wrap gap-10'>
+      <div className='mt-3'>
+        <a
+          href="/khanttinyane_webdeveloper_2025.pdf"
+          download
+          className="inline-block px-6 py-3 bg-[#915eff] text-white font-medium text-[16px] rounded-md shadow-md hover:bg-[#814efb] transition-all cursor-pointer z-1000"
+        >
+          Download Resume
+        </a>
+        <a
+          href="/khanttinyane_webdeveloper_2025.pdf"
+          target="_blank"
+          className="mt-5 ml-3 inline-block px-6 py-3 bg-[#915eff] text-white font-medium text-[16px] rounded-md shadow-md hover:bg-[#814efb] transition-all cursor-pointer"
+        >
+          View Resume
+        </a>
+      </div>
+
+      <div className='mt-10 flex flex-wrap gap-10'>
         {services.map((service,index)=>(
           <ServiceCard key={service.title} index={index} {...service}/>
         ))}
