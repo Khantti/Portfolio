@@ -31,6 +31,12 @@ import {
     threejs,
     logicmaster,
     internship,
+    librarymanagementsystem,
+    waterdistributionscada,
+    socialmedia,
+    travelwebsite,
+    fooddelivery,
+    admindashboard,
   } from "../assets";
   
   export const navLinks = [
@@ -217,58 +223,66 @@ import {
   
   const projects = [
     {
-      name: "Car Rent",
+      name: "Smart Library System",
       description:
-        "Web-based platform that allows users to search, book, and manage car rentals from various providers, providing a convenient and efficient solution for transportation needs.",
+        "A smart library management system that combines a web-based platform and RFID-enabled ESP32 microcontroller to simplify book searching, borrowing, and management, ensuring efficient resource utilization and user convenience.",
+      tags: [
+        {
+          name: "javascript",
+          color: "blue-text-gradient",
+        },
+        {
+          name: "php",
+          color: "green-text-gradient",
+        },
+        {
+          name: "mysql",
+          color: "pink-text-gradient",
+        },
+        {
+          name: "esp32",
+          color: "orange-text-gradient",
+        },
+      ],
+      image: librarymanagementsystem,
+      source_code_link: "https://github.com/Khantti/LibraryManagementSystem",
+    },
+    {
+      name: "Water Distribution SCADA",
+      description:
+        "A real-time water distribution SCADA system that integrates IoT sensors, ESP32 microcontroller, and a web-based platform to monitor, control, and optimize water quality, consumption, and distribution efficiently.",
+      tags: [
+        {
+          name: "javascript",
+          color: "blue-text-gradient",
+        },
+        {
+          name: "php",
+          color: "green-text-gradient",
+        },
+        {
+          name: "mysql",
+          color: "pink-text-gradient",
+        },
+        {
+          name: "esp32",
+          color: "orange-text-gradient",
+        },
+      ],
+      image: waterdistributionscada,
+      source_code_link: "https://github.com/Khantti/WaterDistributionSystem",
+    },
+    {
+      name: "Social Media",
+      description:
+        "A feature-rich social media user interface that allows users to connect, share posts, photos, and videos, engage through real-time messaging and comments, customize profiles, and build communities for meaningful interactions.",
       tags: [
         {
           name: "react",
           color: "blue-text-gradient",
         },
         {
-          name: "mongodb",
-          color: "green-text-gradient",
-        },
-        {
-          name: "tailwind",
-          color: "pink-text-gradient",
-        },
-      ],
-      image: carrent,
-      source_code_link: "https://github.com/",
-    },
-    {
-      name: "Job IT",
-      description:
-        "Web application that enables users to search for job openings, view estimated salary ranges for positions, and locate available jobs based on their current location.",
-      tags: [
-        {
-          name: "react",
-          color: "blue-text-gradient",
-        },
-        {
-          name: "restapi",
-          color: "green-text-gradient",
-        },
-        {
-          name: "scss",
-          color: "pink-text-gradient",
-        },
-      ],
-      image: jobit,
-      source_code_link: "https://github.com/",
-    },
-    {
-      name: "Trip Guide",
-      description:
-        "A comprehensive travel booking platform that allows users to book flights, hotels, and rental cars, and offers curated recommendations for popular destinations.",
-      tags: [
-        {
-          name: "nextjs",
-          color: "blue-text-gradient",
-        },
-        {
-          name: "supabase",
+          name: "materialUI",
           color: "green-text-gradient",
         },
         {
@@ -276,8 +290,71 @@ import {
           color: "pink-text-gradient",
         },
       ],
-      image: tripguide,
-      source_code_link: "https://github.com/",
+      image: socialmedia,
+      source_code_link: "https://github.com/Khantti/SocialMedia",
+    },
+    {
+      name: "Travel Website",
+      description:
+        "A visually appealing and user-friendly travel website UI designed to help users explore destinations, compare prices, book flights, hotels, and activities seamlessly, with personalized recommendations and an intuitive navigation experience",
+      tags: [
+        {
+          name: "react",
+          color: "blue-text-gradient",
+        },
+        {
+          name: "aos",
+          color: "green-text-gradient",
+        },
+        {
+          name: "css",
+          color: "pink-text-gradient",
+        },
+      ],
+      image: travelwebsite,
+      source_code_link: "https://github.com/Khantti/TravelWebsite",
+    },
+    {
+      name: "Food Delivery UI",
+      description:
+        "A sleek and streamlined food delivery UI for a single restaurant, allowing users to browse the menu, customize orders, select delivery or pickup options, track their order status in real time, make secure payments, and enjoy a personalized dining experience.",
+      tags: [
+        {
+          name: "react",
+          color: "blue-text-gradient",
+        },
+        {
+          name: "materialUI",
+          color: "green-text-gradient",
+        },
+        {
+          name: "vite",
+          color: "red-text-gradient",
+        },
+      ],
+      image: fooddelivery,
+      source_code_link: "https://github.com/Khantti/FoodDelivery",
+    },
+    {
+      name: "Ecommerce Dashboard",
+      description:
+        "A dashboard UI for an eCommerce website, offering real-time sales analytics, inventory management, order processing, customer insights, and order tracking, empowering administrators to efficiently manage products, transactions, and calendar",
+      tags: [
+        {
+          name: "react",
+          color: "blue-text-gradient",
+        },
+        {
+          name: "syncfusion",
+          color: "green-text-gradient",
+        },
+        {
+          name: "react-icon",
+          color: "red-text-gradient",
+        },
+      ],
+      image: admindashboard,
+      source_code_link: "https://github.com/Khantti/AdminDashboard",
     },
   ];
   

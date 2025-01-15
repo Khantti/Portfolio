@@ -34,6 +34,12 @@ import iot from "./company/iot.png"
 import logicmaster from "./company/logicmaster.png"
 import internship from "./company/internship.png"
 
+import librarymanagementsystem from "./librarymanagementsystem.jpg";
+import waterdistributionscada from "./waterdistributionscada.png";
+import socialmedia from "./socialmedia.png";
+import travelwebsite from "./travelwebsite.png";
+import fooddelivery from "./fooddelivery.png";
+import admindashboard from "./admindashboard.png";
 import carrent from "./carrent.png";
 import jobit from "./jobit.png";
 import tripguide from "./tripguide.png";
@@ -75,4 +81,10 @@ export {
   jquery,
   mysql,
   php,
+  librarymanagementsystem,
+  waterdistributionscada,
+  socialmedia,
+  travelwebsite,
+  fooddelivery,
+  admindashboard,
 };
