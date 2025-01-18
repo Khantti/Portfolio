@@ -4,6 +4,7 @@ import { motion } from 'framer-motion'
 
 import { styles } from '../styles'
 import { services } from '../constants'
+import {linkedin,github} from '../assets'
 import {fadeIn, textVariant} from '../utils/motion'
 import { text, title } from 'framer-motion/client'
 import { SectionWrapper } from '../hoc'
@@ -39,7 +40,7 @@ const About = () => {
 
       <motion.p
         variants={fadeIn("","",0.1,1)}
-        className='mt-3 text-secondary text-[17px] max-w-7xl leading-[30px]'
+        className='mt-3 text-secondary text-justify text-[17px] max-w-7xl leading-[30px]'
       >
         I'm a passionate frontend developer with expertise in HTML, CSS, JavaScript, and React, and hands-on experience with frameworks like Bootstrap, jQuery and etc. I specialize in creating responsive, intuitive, and visually appealing web interfaces that enhance user experience.
 
@@ -48,22 +49,58 @@ const About = () => {
         Let’s build something great together!
       </motion.p>
 
-      <div className='mt-3'>
-        <a
-          href="/khanttinyane_webdeveloper_2025.pdf"
-          download
-          className="inline-block px-6 py-3 bg-[#915eff] text-white font-medium text-[16px] rounded-md shadow-md hover:bg-[#814efb] transition-all cursor-pointer z-1000"
-        >
-          Download Resume
-        </a>
-        <a
-          href="/khanttinyane_webdeveloper_2025.pdf"
-          target="_blank"
-          className="mt-5 ml-3 inline-block px-6 py-3 bg-[#915eff] text-white font-medium text-[16px] rounded-md shadow-md hover:bg-[#814efb] transition-all cursor-pointer"
-        >
-          View Resume
-        </a>
+      <div className="mt-3 flex flex-col sm:flex-row justify-between items-center gap-4">
+        {/* <!-- Resume Buttons --> */}
+        <div className="flex flex-col sm:flex-row gap-3">
+          <a
+            href="/khanttinyane_webdeveloper_2025.pdf"
+            download
+            className="inline-block px-6 py-3 bg-[#915eff] text-white font-medium text-[16px] rounded-md shadow-md hover:bg-[#814efb] transition-all cursor-pointer"
+          >
+            Download Resume
+          </a>
+          <a
+            href="/khanttinyane_webdeveloper_2025.pdf"
+            target="_blank"
+            className="inline-block px-6 py-3 bg-[#915eff] text-white font-medium text-[16px] rounded-md shadow-md hover:bg-[#814efb] transition-all cursor-pointer"
+          >
+            View Resume
+          </a>
+        </div>
+
+        {/* <!-- Social Links --> */}
+        <div>
+          <ul className="flex gap-3 justify-center">
+            <li>
+              <a
+                href="https://www.linkedin.com/in/khant-ti-nyane-3018672b6"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
+                <img
+                  src={linkedin}
+                  alt="linkedin"
+                  className="w-8 h-8 rounded-xl object-contain"
+                />
+              </a>
+            </li>
+            <li>
+              <a
+                href="https://github.com/Khantti"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
+                <img
+                  src={github}
+                  alt="github"
+                  className="w-8 h-8 rounded-xl object-contain"
+                />
+              </a>
+            </li>
+          </ul>
+        </div>
       </div>
+
 
       <div className='mt-10 flex flex-wrap gap-10'>
         {services.map((service,index)=>(

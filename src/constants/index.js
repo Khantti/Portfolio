@@ -57,10 +57,6 @@ import {
       title: "Projects",
     },
     {
-      id: "achievement",
-      title: "Achievement",
-    },
-    {
       id: "contact",
       title: "Contact",
     },
